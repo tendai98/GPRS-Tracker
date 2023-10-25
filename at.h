@@ -11,6 +11,6 @@ char * AT_GPRS_IP = "AT+SAPBR=2,1";
 
 char * AT_HTTP_INIT = "AT+HTTPINIT";
 char * AT_HTTP_CID = "AT+HTTPPARA=CID,1";
-char * AT_HTTP_URL = "AT+HTTPPARA=URL,http://20.164.38.53/api?id=Goat1&ln=%s&lt=%s\r\n";
+char * AT_HTTP_URL = "AT+HTTPPARA=URL,http://0.0.0.0/api?id=SensorID:123456&ln=%s&lt=%s\r\n";
 char * AT_HTTP_DATA = "AT+HTTPDATA=256,10000";
 char * AT_HTTP_GET = "AT+HTTPACTION=0";
